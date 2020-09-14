@@ -1,5 +1,5 @@
 
-WKDIR=/home/pi/fun/apue/apue.2e
+WKDIR=./apue.2e
 CC=gcc
 COMPILE.c=$(CC) $(CFLAGS) $(CPPFLAGS) -c
 LINK.c=$(CC) $(CFLAGS) $(CPPFLAGS) $(LDDIR) $(LDFLAGS)
